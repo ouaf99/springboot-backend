@@ -20,7 +20,7 @@ import net.learning.springboot.exception.RessourceNotFoundException;
 import net.learning.springboot.model.User;
 import net.learning.springboot.repository.UserRepository;
 
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://react-js-users-management-app.herokuapp.com")
 @RestController
 @RequestMapping("api/")
 public class UserController {
